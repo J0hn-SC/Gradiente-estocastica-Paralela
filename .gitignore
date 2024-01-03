@@ -1,0 +1,4 @@
+libtorch
+libtorch/lib
+libtorch/share
+libtorch-cxx11-abi-shared-with-deps-1.4.0+cpu.zip

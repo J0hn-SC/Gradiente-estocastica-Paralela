@@ -1,0 +1,5 @@
+/home/ronald/TF-Parelela/APAM-cpp-mpi/build/CMakeFiles/apam_mpi_logit_mnist.dir
+/home/ronald/TF-Parelela/APAM-cpp-mpi/build/CMakeFiles/apam_mpi_mlp_mnist.dir
+/home/ronald/TF-Parelela/APAM-cpp-mpi/build/CMakeFiles/apam_mpi_lenet5_mnist.dir
+/home/ronald/TF-Parelela/APAM-cpp-mpi/build/CMakeFiles/edit_cache.dir
+/home/ronald/TF-Parelela/APAM-cpp-mpi/build/CMakeFiles/rebuild_cache.dir
