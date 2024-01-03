@@ -12,13 +12,11 @@ Este repositorio contiene una implementación C++-MPI de APAM [(Xu et al. 2020)]
 La configuración por defecto supone el uso de OpenMP. Si no desea o no puede utilizar OpenMP, cambie la siguiente línea en `CMakeLists.txt` de
 
 ```
-opción(USE_OPENMP "Si tiene OpenMP y usa OpenMP" activado)
+option(USE_OPENMP "If has OpenMP and use OpenMP" ON)
 ```
-
 a
-
 ```
-opción(USE_OPENMP "Si tiene OpenMP y usa OpenMP" APAGADO)
+option(USE_OPENMP "If has OpenMP and use OpenMP" OFF)
 ```
 
 Sugerencia: El propósito de usar OpenMP es permitir subprocesos múltiples para el maestro. Si usa solo un subproceso para el maestro, no invocar OpenMP le evitará la sobrecarga de subprocesos.
